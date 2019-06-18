@@ -1,11 +1,51 @@
 [
   {
+    "title": "JS Components",
+    "list": [
+      {
+        "path": "/toast",
+        "name": "Toast",
+        "icon": "toast"
+      },
+      {
+        "path": "/indicator",
+        "name": "Indicator",
+        "icon": "indicator"
+      },
+      {
+        "path": "/infinite-scroll",
+        "name": "Infinite scroll",
+        "icon": "infinite-scroll"
+      },
+      {
+        "path": "/message-box",
+        "name": "Message box",
+        "icon": "message-box"
+      },
+      {
+        "path": "/lazyload",
+        "name": "Lazy load",
+        "icon": "lazyload"
+      }
+    ]
+  },
+  {
     "title": "CSS Components",
     "list": [
       {
         "path": "/button",
         "name": "Button",
         "icon": "button"
+      },
+      {
+        "path": "/cell",
+        "name": "Cell",
+        "icon": "cell"
+      },
+      {
+        "path": "/cell-swipe",
+        "name": "Cell Swipe",
+        "icon": "cell"
       }
     ]
   }

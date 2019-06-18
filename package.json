@@ -1,12 +1,10 @@
 {
-  "name": "mint-ui",
-  "version": "2.2.13",
-  "description": "Mobile UI elements for vue.js",
+  "name": "bd-tools",
+  "version": "1.0.0",
+  "description": "yaofang for bd",
   "keywords": [
-    "component",
-    "vue",
-    "mobile",
-    "eleme"
+    "bd",
+    "tools"
   ],
   "main": "lib/mint-ui.common.js",
   "style": "lib/style.css",
@@ -34,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/ElemeFE/mint-ui/issues"
   },
-  "author": "elemefe",
+  "author": "guofeng",
   "license": "MIT",
   "dependencies": {
     "array-find-index": "^1.0.2",

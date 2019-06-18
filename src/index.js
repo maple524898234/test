@@ -1,11 +1,20 @@
+import Cell from '../packages/cell';
+import CellSwipe from '../packages/cell-swipe';
 import Button from '../packages/button';
+import Toast from '../packages/toast';
+import Indicator from '../packages/indicator';
+import MessageBox from '../packages/message-box';
+import InfiniteScroll from '../packages/infinite-scroll';
+import Lazyload from '../packages/lazyload';
 import '../src/assets/font/iconfont.css';
 import merge from './utils/merge';
 
-const version = '2.2.13';
+const version = '1.0.0';
 const install = function(Vue, config = {}) {
   if (install.installed) return;
 
+  Vue.component(Cell.name, Cell);
+  Vue.component(CellSwipe.name, CellSwipe);
   Vue.component(Button.name, Button);
   Vue.use(InfiniteScroll);
   Vue.use(Lazyload, merge({
@@ -26,5 +35,12 @@ if (typeof window !== 'undefined' && window.Vue) {
 module.exports = {
   install,
   version,
-  Button
+  Cell,
+  CellSwipe,
+  Button,
+  Toast,
+  Indicator,
+  MessageBox,
+  InfiniteScroll,
+  Lazyload
 };
