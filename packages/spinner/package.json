@@ -1,6 +1,6 @@
 {
-  "name": "mint-spinner",
-  "version": "2.0.1",
+  "name": "yaoex-spinner",
+  "version": "2.0.2",
   "description": "A spinner component for vue.js",
   "main": "lib/index.js",
   "files": [
