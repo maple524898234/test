@@ -1,0 +1,4 @@
+{
+  "font": "./src/assets/font/iconfont.css",
+  "button": "./packages/button/index.js"
+}
